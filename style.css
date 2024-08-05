@@ -1,0 +1,9 @@
+#nav a {
+    color: black; 
+    text-decoration: underline; 
+}
+
+
+#nav a:hover {
+    color: pink; 
+}
