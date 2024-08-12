@@ -4,28 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nykaa Home Page</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <table width="100%">
-            <tr id="nav">
-                <td><img src="logo.png" alt="Nykaa Logo" /></td>
-                <td width="50"></td>
-                <td  width="900">
-                    <a href="/">Home</a> |
-                    <a  href="#products">Products</a> |
-                    <a href="#services">Services</a> |
-                    <a href="contact.html">Contact</a>  
-                   
-                </td>
-                <td width="50"></td>
-            </tr>
-           
-        </table>
+        <nav>
+            <table width="100%">
+                <tr id="nav">
+                    <td><img src="logo.png" alt="Nykaa Logo" /></td>
+                    <td width="50"></td>
+                    <td width="900">
+                        <a href="/">Home</a> |
+                        <a href="#products">Products</a> |
+                        <a href="#services">Services</a> |
+                        <a href="contact.html">Contact</a>  
+                    </td>
+                    <td width="50"></td>
+                </tr>
+            </table>
+        </nav>
     </header>
 
-    <div class="container">
+    <main class="container">
         <section>
             <h2>
                 <i>
@@ -33,50 +32,101 @@
                 </i>
             </h2>
         </section>
+        
         <section id="products">
             <h2>Our Products</h2>
             <div>
                 <table width="100%">
                     <tr>
                         <td>
-                            <h1>Beauty Products</h1>
-                            <img width="375" height="375" src="beauty.png" alt="Beauty Products" />
+                            <article>
+                                <h1>Beauty Products</h1>
+                                <figure>
+                                    <img width="375" height="375" src="beauty.png" alt="Beauty Products" />
+                                    <figcaption>Beauty Products</figcaption>
+                                </figure>
+                                <button onclick="alert('Explore Beauty Products')">Explore</button>
+                            </article>
                         </td>
                         <td>
-                            <h1>Skincare Solutions</h1>
-                            <img width="375" height="375" src="personal-care.png" alt="Skincare Solutions" />
+                            <article>
+                                <h1>Skincare Solutions</h1>
+                                <figure>
+                                    <img width="375" height="375" src="personal-care.png" alt="Skincare Solutions" />
+                                    <figcaption>Skincare Solutions</figcaption>
+                                </figure>
+                                <button onclick="alert('Explore Skincare Solutions')">Explore</button>
+                            </article>
                         </td>
                         <td>
-                            <h1>Fragrance</h1>
-                            <img width="375" height="375" src="fragrances.png" alt="Fragrance" />
+                            <article>
+                                <h1>Fragrance</h1>
+                                <figure>
+                                    <img width="375" height="375" src="fragrances.png" alt="Fragrance" />
+                                    <figcaption>Fragrance</figcaption>
+                                </figure>
+                                <button onclick="alert('Explore Fragrance')">Explore</button>
+                            </article>
                         </td>
                         <td>
-                            <h1>Hair Care</h1>
-                            <img width="375" height="375" src="personal-care.png" alt="Personal Care" />
+                            <article>
+                                <h1>Hair Care</h1>
+                                <figure>
+                                    <img width="375" height="375" src="personal-care.png" alt="Hair Care" />
+                                    <figcaption>Hair Care</figcaption>
+                                </figure>
+                                <button onclick="alert('Explore Hair Care')">Explore</button>
+                            </article>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <h1>Beauty Products</h1>
-                            <img width="375" height="375" src="Loreal.png" alt="Beauty Products" />
+                            <article>
+                                <h1>Beauty Products</h1>
+                                <figure>
+                                    <img width="375" height="375" src="Loreal.png" alt="Beauty Products" />
+                                    <figcaption>Beauty Products</figcaption>
+                                </figure>
+                            </article>
                         </td>
                         <td>
-                            <h1>Skincare Solutions</h1>
-                            <img width="375" height="375" src="dotandkey.png" alt="Skincare Solutions" />
+                            <article>
+                                <h1>Skincare Solutions</h1>
+                                <figure>
+                                    <img width="375" height="375" src="dotandkey.png" alt="Skincare Solutions" />
+                                    <figcaption>Skincare Solutions</figcaption>
+                                </figure>
+                            </article>
                         </td>
                         <td>
-                            <h1>Fragrance</h1>
-                            <img width="375" height="375" src="kay.png" alt="Fragrance" />
+                            <article>
+                                <h1>Fragrance</h1>
+                                <figure>
+                                    <img width="375" height="375" src="kay.png" alt="Fragrance" />
+                                    <figcaption>Fragrance</figcaption>
+                                </figure>
+                            </article>
                         </td>
                         <td>
-                            <h1>Hair Care</h1>
-                            <img width="375" height="375" src="personal-care.png" alt="Personal Care" />
+                            <article>
+                                <h1>Hair Care</h1>
+                                <figure>
+                                    <img width="375" height="375" src="personal-care.png" alt="Hair Care" />
+                                    <figcaption>Hair Care</figcaption>
+                                </figure>
+                            </article>
                         </td>
                     </tr>
                     <tr>
                         <td colspan="4">
-                            <h1>SALE</h1>
-                            <img width="100%" src="sale.png" alt="sale" />
+                            <article>
+                                <h1>SALE</h1>
+                                <figure>
+                                    <img width="100%" src="sale.png" alt="sale" />
+                                    <figcaption>Check out our sale!</figcaption>
+                                </figure>
+                                <button onclick="alert('View Sale Items')">View Sale</button>
+                            </article>
                         </td>
                     </tr>
                 </table>
@@ -107,19 +157,54 @@
             <h2>Explore Nykaa</h2>
             <div>
                 <h3>Nykaa Beauty Products</h3>
-                <iframe width="600" height="340" src="https://www.youtube.com/embed/JePtZ5p69zY?si=lzxzQRbsOColgxLO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figure>
+                    <iframe width="600" height="340" src="https://www.youtube.com/embed/JePtZ5p69zY?si=lzxzQRbsOColgxLO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption>Nykaa Beauty Products Video</figcaption>
+                </figure>
                 <p>Check out our latest video showcasing Nykaa's beauty products and trends!</p>
             </div>
             <div>
                 <h3>Nykaa Skincare Tips</h3>
-                <iframe width="600" height="340" src="https://www.youtube.com/embed/ed9kmxnG4Tw?si=7-S0YGHhwK1G-4-W" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figure>
+                    <iframe width="600" height="340" src="https://www.youtube.com/embed/ed9kmxnG4Tw?si=7-S0YGHhwK1G-4-W" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption>Nykaa Skincare Tips Video</figcaption>
+                </figure>
             </div>
             <div>
                 <h3>Nykaa Fashion Collection</h3>
-                <iframe width="600" height="340" src="https://www.youtube.com/embed/HoJxNUClLXc?si=TS-BiElGd0fnqX5b" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figure>
+                    <iframe width="600" height="340" src="https://www.youtube.com/embed/HoJxNUClLXc?si=TS-BiElGd0fnqX5b" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <figcaption>Nykaa Fashion Collection Video</figcaption>
+                </figure>
             </div>
         </section>
-    </div>
+
+        <!-- Additional Section with Details and Time -->
+        <section id="details-info">
+            <h2>More Information</h2>
+            <details>
+                <summary>Click here for additional information</summary>
+                <p>We offer various beauty services and products that cater to your needs.</p>
+            </details>
+            <p>Current Date and Time: <time datetime="2024-08-12T14:00">August 12, 2024, 2:00 PM</time></p>
+        </section>
+
+        <!-- Highlighted Content -->
+        <section id="highlighted-content">
+            <h2>Highlighted Content</h2>
+            <p>We have <mark>exciting offers</mark> and new arrivals every week. Stay tuned!</p>
+        </section>
+
+        <!-- Address Section with Address Tag -->
+        <section id="contact-address">
+            <h2>Contact Us</h2>
+            <address>
+                <p>8th Floor, C Wing, Times Square, Andheri-Kurla Road, Andheri (E), Mumbai 400059, India</p>
+                <p>Phone: (022) 3001-0010</p>
+                <p>Email: <a href="mailto:support@nykaa.com">support@nykaa.com</a></p>
+            </address>
+        </section>
+    </main>
 
     <footer>
         <table width="100%">
